@@ -3,11 +3,22 @@ import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 import { ReactSVG } from "react-svg";
 import Checkmark from "../graphics/Checkmark.svg";
+import Star from "../graphics/star.svg";
 
 export default function BasicButtons() {
   return (
     <div className="container first-body-div">
       <div>
+        <Stack className="mt-3" spacing={2} direction="row">
+          <div className="rating-sec">
+            <ReactSVG src={Star} />
+            <ReactSVG src={Star} />
+            <ReactSVG src={Star} />
+            <ReactSVG src={Star} />
+            <ReactSVG src={Star} />
+            <p className="mx-2">Rated 4.8/5 (243 Reviews)</p>
+          </div>
+        </Stack>
         <h1 className="first-body-title">Create your portfolio in minutes.</h1>
         <p>
           With Fiber, you can setup your own personal portfolio in minutes with
@@ -21,13 +32,14 @@ export default function BasicButtons() {
             View Example
           </Button>
         </Stack>
-        <Stack spacing={2} direction="row">
-          <div className="row">
+        <Stack className="mt-3" spacing={2} direction="row">
+          <div className="main-adv">
             <ReactSVG src={Checkmark} />
-            <p>No Credit Card Required</p>
+            <p className="mx-2">No Credit Card Required</p>
           </div>
-          <div>
-            <ReactSVG src={Checkmark} /> 10 Free Templates
+          <div className="main-adv">
+            <ReactSVG src={Checkmark} />{" "}
+            <p className="mx-2">10 Free Templates</p>
           </div>
         </Stack>
       </div>

@@ -6,11 +6,22 @@
   .hero-img {
     width: 50px;
   }
+
+  .first-body-div {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @media only screen and (min-width: 600px) {
   .hero-img {
     width: 300px;
+  }
+
+  .first-body-div {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 75px !important;
   }
 }
 
@@ -25,11 +36,7 @@
 
 .first-body-title {
   color: black;
-}
-
-.first-body-div {
-  display: flex;
-  flex-direction: row;
+  text-align: left;
 }
 
 .signin-btn {
@@ -47,4 +54,11 @@
 
 .example-btn {
   text-decoration: underline !important;
+  color: blueviolet !important;
+}
+
+.main-adv,
+.rating-sec {
+  display: flex;
+  flex-direction: row;
 }
