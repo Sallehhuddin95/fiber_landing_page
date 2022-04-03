@@ -7,8 +7,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <FirstBody />
+      <section className="top-section">
+        <Header />
+        <FirstBody />
+      </section>
     </div>
   );
 }

@@ -1,3 +1,50 @@
+@media only screen and (max-width: 600px) {
+  .signup-btn {
+    margin-left: 0 !important;
+  }
+
+  .hero-img {
+    width: 50px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .hero-img {
+    width: 300px;
+  }
+}
+
+.top-section {
+  background-color: #fffeee !important;
+}
+
+.nav-header {
+  background-color: #fffeee !important;
+  box-shadow: none !important;
+}
+
 .first-body-title {
   color: black;
+}
+
+.first-body-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.signin-btn {
+  background-color: #fffeee !important;
+  color: black !important;
+}
+
+.signup-btn {
+  background-color: blueviolet !important;
+}
+
+.trial-btn {
+  background-color: blueviolet !important;
+}
+
+.example-btn {
+  text-decoration: underline !important;
 }

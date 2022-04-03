@@ -25,7 +25,7 @@ const ResponsiveAppBar = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar className="nav-header" position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -93,8 +93,12 @@ const ResponsiveAppBar = () => {
             ))}
           </Box>
           <Stack spacing={2} direction="row">
-            <Button variant="contained">Contained</Button>
-            <Button variant="contained">Outlined</Button>
+            <Button className="signin-btn" variant="contained">
+              Sign In
+            </Button>
+            <Button className="signup-btn" variant="contained">
+              Sign Up
+            </Button>
           </Stack>
         </Toolbar>
       </Container>
