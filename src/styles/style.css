@@ -23,6 +23,10 @@
     flex-direction: row;
     padding-bottom: 75px !important;
   }
+
+  .page-img {
+    width: 50%;
+  }
 }
 
 .top-section {
@@ -61,4 +65,34 @@
 .rating-sec {
   display: flex;
   flex-direction: row;
+}
+
+.card-div {
+  box-shadow: none !important;
+}
+
+.our-adv {
+  display: flex !important;
+  flex-direction: row;
+}
+
+.portfolio-body {
+  display: flex !important;
+  flex-direction: row;
+  background-color: blueviolet !important;
+  padding: 20px 20px 0 20px;
+}
+
+.portfolio-text {
+  background-color: inherit !important;
+  width: 50%;
+}
+
+.namecard-div {
+  display: flex !important;
+  flex-direction: row;
+}
+
+.namecard {
+  box-shadow: none !important;
 }
