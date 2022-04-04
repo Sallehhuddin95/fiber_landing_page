@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 @media only screen and (max-width: 600px) {
   .signup-btn {
     margin-left: 0 !important;
@@ -10,6 +15,34 @@
   .first-body-div {
     display: flex;
     flex-direction: row;
+  }
+
+  .footer-link-div > div {
+    /* width: 70% !important; */
+    font-size: 14px !important;
+    margin-left: 7px !important;
+    margin-right: 7px !important;
+    display: grid !important;
+    grid-template-columns: 50% 50% !important;
+  }
+
+  .footer-link-div > div > a {
+    padding-left: 0 !important;
+  }
+
+  .footer-link {
+    color: #757575 !important;
+    text-decoration: none !important;
+    margin-right: 5px !important;
+    width: 100%;
+    height: 35px;
+    text-align: left !important;
+  }
+
+  .lang-footer-div {
+    /* width: 70% !important; */
+    margin-left: 7px !important;
+    margin-right: 7px !important;
   }
 }
 
@@ -26,6 +59,29 @@
 
   .page-img {
     width: 50%;
+  }
+
+  .footer-link-div > div {
+    width: 70% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  }
+
+  .footer-link {
+    color: #757575 !important;
+    text-decoration: none !important;
+    margin-right: 5px !important;
+    width: 100%;
+    height: 50px;
+    text-align: left !important;
+    padding-left: 0 !important;
+  }
+
+  .lang-footer-div {
+    width: 70% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
 
@@ -95,4 +151,25 @@
 
 .namecard {
   box-shadow: none !important;
+}
+
+.footer-link-div {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+}
+
+.col-div {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+}
+
+.footer-header {
+  font-weight: 500;
+  color: black !important;
+}
+
+.footer-section {
+  background-color: #fffeee !important;
 }
