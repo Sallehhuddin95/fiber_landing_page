@@ -8,7 +8,7 @@ import Star from "../graphics/star.svg";
 export default function BasicButtons() {
   return (
     <div className="container first-body-div">
-      <div>
+      <div className="first-body-child">
         <Stack className="mt-3" spacing={2} direction="row">
           <div className="rating-sec">
             <ReactSVG src={Star} />
@@ -20,7 +20,7 @@ export default function BasicButtons() {
           </div>
         </Stack>
         <h1 className="first-body-title">Create your portfolio in minutes.</h1>
-        <p>
+        <p className="first-body-text">
           With Fiber, you can setup your own personal portfolio in minutes with
           dozens of premade, beautiful templates.
         </p>
@@ -43,7 +43,7 @@ export default function BasicButtons() {
           </div>
         </Stack>
       </div>
-      <div>
+      <div className="hero-img-div">
         <img
           className="hero-img"
           src={require("../graphics/hero-Illustration.png")}

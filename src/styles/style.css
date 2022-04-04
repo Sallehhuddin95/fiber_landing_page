@@ -48,16 +48,26 @@ body {
 
 @media only screen and (min-width: 600px) {
   .hero-img {
-    width: 300px;
+    width: 450px;
   }
 
   .first-body-div {
     display: flex;
     flex-direction: row;
     padding-bottom: 75px !important;
+    max-width: 1536px !important;
   }
 
   .page-img {
+    width: 50%;
+  }
+
+  .first-body-child {
+    width: 50%;
+    margin-left: 10px;
+  }
+
+  .hero-img-div {
     width: 50%;
   }
 
@@ -99,6 +109,10 @@ body {
   text-align: left;
 }
 
+.first-body-text {
+  text-align: left;
+}
+
 .signin-btn {
   background-color: #fffeee !important;
   color: black !important;
@@ -115,6 +129,7 @@ body {
 .example-btn {
   text-decoration: underline !important;
   color: blueviolet !important;
+  font-weight: 500 !important;
 }
 
 .main-adv,
