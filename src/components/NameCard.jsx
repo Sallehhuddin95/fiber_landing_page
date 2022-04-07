@@ -19,6 +19,7 @@ import { ReactSVG } from "react-svg";
 import User1 from "../graphics/User Avatar.svg";
 import User2 from "../graphics/User Avatar 2.svg";
 import User3 from "../graphics/User Avatar 32.svg";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -39,59 +40,83 @@ export default function RecipeReviewCard() {
   };
 
   return (
-    <div className="namecard-div mt-5">
+    <div className="namecard-div my-5">
       <Card sx={{ maxWidth: 345 }} className="mx-3 namecard">
         <CardHeader
+          className="card-header-title text-left"
           avatar={<ReactSVG src={User1} />}
           title="Sarah Andrew"
           subheader="100k in revenue"
         />
 
         <CardContent>
-          <Typography variant="body2" color="text.secondary">
-            This impressive paella is a perfect party dish and a fun meal to
-            cook together with your guests. Add 1 cup of frozen peas along with
-            the mussels, if you like.
+          <Typography
+            className="namecard-text"
+            variant="body2"
+            color="text.secondary"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
-          <Button size="small">View Sarah's Portfolio</Button>
+          <Button className="namecard-btn" size="small">
+            View Sarah's Portfolio
+          </Button>
         </CardActions>
       </Card>
       <Card sx={{ maxWidth: 345 }} className="mx-3 namecard">
         <CardHeader
+          className="card-header-title text-left"
           avatar={<ReactSVG src={User2} />}
           title="Mathew Higgins"
           subheader="20k in revenue"
         />
 
         <CardContent>
-          <Typography variant="body2" color="text.secondary">
-            This impressive paella is a perfect party dish and a fun meal to
-            cook together with your guests. Add 1 cup of frozen peas along with
-            the mussels, if you like.
+          <Typography
+            className="namecard-text"
+            variant="body2"
+            color="text.secondary"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
-          <Button size="small">View Mathew's Portfolio</Button>
+          <Button className="namecard-btn" size="small">
+            View Mathew's Portfolio
+          </Button>
         </CardActions>
       </Card>
       <Card sx={{ maxWidth: 345 }} className="namecard">
         <CardHeader
+          className="card-header-title"
           avatar={<ReactSVG src={User3} />}
           title="Janice Dave"
           subheader="30k in revenue"
         />
 
         <CardContent>
-          <Typography variant="body2" color="text.secondary">
-            This impressive paella is a perfect party dish and a fun meal to
-            cook together with your guests. Add 1 cup of frozen peas along with
-            the mussels, if you like.
+          <Typography
+            className="namecard-text"
+            variant="body2"
+            color="text.secondary"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
-          <Button size="small">View Janice's Portfolio</Button>
+          <Button className="namecard-btn" size="small">
+            View Janice's Portfolio
+          </Button>
         </CardActions>
       </Card>
     </div>

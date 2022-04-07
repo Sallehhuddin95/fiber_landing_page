@@ -107,10 +107,19 @@ body {
 .first-body-title {
   color: black;
   text-align: left;
+  font-weight: 700 !important;
 }
 
 .first-body-text {
   text-align: left;
+}
+
+.text-bold {
+  font-weight: 700 !important;
+}
+
+.card-ctn-text {
+  font-size: 14px !important;
 }
 
 .signin-btn {
@@ -138,8 +147,19 @@ body {
   flex-direction: row;
 }
 
+.card-content {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.main-body-title,
+.card-div {
+  text-align: left;
+}
+
 .card-div {
   box-shadow: none !important;
+  max-width: none !important;
 }
 
 .our-adv {
@@ -147,25 +167,92 @@ body {
   flex-direction: row;
 }
 
+.our-adv > div:nth-child(1),
+.our-adv > div:nth-child(2) {
+  margin-right: 30px;
+}
+
+.text-title {
+  color: blueviolet;
+}
+
 .portfolio-body {
   display: flex !important;
   flex-direction: row;
   background-color: blueviolet !important;
   padding: 20px 20px 0 20px;
+  border-radius: 10px !important;
+}
+
+.portfolio-body > div {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
 }
 
 .portfolio-text {
   background-color: inherit !important;
-  width: 50%;
+  width: 80%;
+  box-shadow: none !important;
+  text-align: left;
+}
+
+.portfolio-text > div {
+  padding: 16px !important;
+}
+
+.center-vertical {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.portfolio-title {
+  color: white;
+}
+
+.strt-trial-btn {
+  background-color: white !important;
+  color: purple !important;
+  font-weight: 700 !important;
+  width: 35%;
+  padding: 10px;
 }
 
 .namecard-div {
   display: flex !important;
   flex-direction: row;
+  justify-content: space-around !important;
 }
 
 .namecard {
   box-shadow: none !important;
+  border: 1px solid gray;
+}
+
+.card-header-title {
+  color: blueviolet !important;
+}
+
+.card-header-title > div > span {
+  text-align: left !important;
+}
+
+.namecard-text {
+  text-align: left !important;
+}
+
+.namecard-btn {
+  margin: 3px auto 3px auto !important;
+  border: solid 1px gray !important;
+  padding: 5px !important;
+  width: 80% !important;
+  color: blueviolet !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
 }
 
 .footer-link-div {

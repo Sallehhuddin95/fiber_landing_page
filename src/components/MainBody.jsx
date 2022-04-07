@@ -23,16 +23,23 @@ const bull = (
 
 export default function MediaCard() {
   return (
-    <div className="container">
-      <div>
-        <h6>Why Fiber?</h6>
-        <h3>A good portfolio means good employability.</h3>
+    <div className="container mt-5">
+      <div className="main-body-title">
+        <h6 className="text-title">Why Fiber?</h6>
+        <h3 className="text-bold">
+          A good portfolio means good employability.
+        </h3>
       </div>
       <div className="our-adv mt-3">
         <Card className="card-div" sx={{ maxWidth: 345 }}>
           <ReactSVG src={Time} />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+          <CardContent className="card-content">
+            <Typography
+              className="text-bold card-ctn-text"
+              gutterBottom
+              variant="h5"
+              component="div"
+            >
               Build in minutes
             </Typography>
             <Typography variant="body2" color="text.secondary">
@@ -43,9 +50,14 @@ export default function MediaCard() {
         </Card>
         <Card className="card-div" sx={{ maxWidth: 345 }}>
           <ReactSVG src={Code} />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Build in minutes
+          <CardContent className="card-content ">
+            <Typography
+              className="text-bold card-ctn-text"
+              gutterBottom
+              variant="h5"
+              component="div"
+            >
+              Add custome CSS
             </Typography>
             <Typography variant="body2" color="text.secondary">
               With a selection of premade templates, you can build out a
@@ -55,9 +67,14 @@ export default function MediaCard() {
         </Card>
         <Card className="card-div" sx={{ maxWidth: 345 }}>
           <ReactSVG src={AllSize} />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Build in minutes
+          <CardContent className="card-content ">
+            <Typography
+              className="text-bold card-ctn-text"
+              gutterBottom
+              variant="h5"
+              component="div"
+            >
+              Responsive
             </Typography>
             <Typography variant="body2" color="text.secondary">
               With a selection of premade templates, you can build out a
@@ -66,21 +83,34 @@ export default function MediaCard() {
           </CardContent>
         </Card>
       </div>
-      <div className="portfolio-body">
-        <Card className="portfolio-text">
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Diversify your portfolio.
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              Create an event more impressive portfolio by creating case studies
-              for your projects. Simply follow our step-by-step guide.
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button size="small">Start Free Trial</Button>
-          </CardActions>
-        </Card>
+      <div className="portfolio-body mt-5">
+        <div>
+          <Card className="portfolio-text">
+            <CardContent>
+              <Typography
+                className="portfolio-title text-bold"
+                gutterBottom
+                variant="h4"
+                component="div"
+              >
+                Diversify your portfolio.
+              </Typography>
+              <Typography
+                className="text-white"
+                variant="body2"
+                color="text.secondary"
+              >
+                Create an event more impressive portfolio by creating case
+                studies for your projects. Simply follow our step-by-step guide.
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button className="strt-trial-btn" size="small">
+                Start Free Trial
+              </Button>
+            </CardActions>
+          </Card>
+        </div>
         <img
           className="page-img"
           src={require("../graphics/Page Image.png")}
