@@ -21,7 +21,7 @@ export default function FifthSection() {
     <div className="footer-div container">
       <div className="footer-link-div">
         <div className="col-div col-xs-12">
-          <p className="footer-header">Fiber</p>
+          <p className="footer-header text-bold">Fiber</p>
           <p className="">
             With Fiber, you can setup your own personal portfolio in minutes
             with dozens of premade, beautiful templates.
@@ -29,7 +29,7 @@ export default function FifthSection() {
           <p className="">Made with love in the Netherlands.</p>
         </div>
         <div className="col-div col-xs-12">
-          <p className="footer-link footer-header">Sitemap</p>
+          <p className="footer-link footer-header text-bold">Sitemap</p>
 
           <a className="footer-link" href="#">
             Help Center
@@ -44,7 +44,7 @@ export default function FifthSection() {
           </a>
         </div>
         <div className="col-div col-xs-12">
-          <p className="footer-link footer-header">Resources</p>
+          <p className="footer-link footer-header text-bold">Resources</p>
 
           <a className="footer-link" href="#">
             Jobs
@@ -59,7 +59,7 @@ export default function FifthSection() {
           </a>
         </div>
         <div className="col-div col-xs-12">
-          <p className="footer-link footer-header">Company</p>
+          <p className="footer-link footer-header text-bold">Company</p>
 
           <a className="footer-link" href="#">
             Terms of Use
@@ -74,7 +74,7 @@ export default function FifthSection() {
           </a>
         </div>
         <div className="col-div col-xs-12">
-          <p className="footer-link footer-header">Portfolios</p>
+          <p className="footer-link footer-header text-bold">Portfolios</p>
 
           <a className="footer-link" href="#">
             Contact Us

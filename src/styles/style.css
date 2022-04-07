@@ -258,13 +258,16 @@ body {
 .footer-link-div {
   display: flex !important;
   flex-direction: row !important;
-  justify-content: center !important;
+  justify-content: space-around !important;
 }
 
 .col-div {
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
+  height: 100%;
+  text-align: left;
+  padding: 10px !important;
 }
 
 .footer-header {
@@ -274,4 +277,5 @@ body {
 
 .footer-section {
   background-color: #fffeee !important;
+  padding-top: 30px !important;
 }
