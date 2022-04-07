@@ -1,3 +1,281 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .signup-btn {
+    margin-left: 0 !important;
+  }
+
+  .hero-img {
+    width: 50px;
+  }
+
+  .first-body-div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-link-div > div {
+    /* width: 70% !important; */
+    font-size: 14px !important;
+    margin-left: 7px !important;
+    margin-right: 7px !important;
+    display: grid !important;
+    grid-template-columns: 50% 50% !important;
+  }
+
+  .footer-link-div > div > a {
+    padding-left: 0 !important;
+  }
+
+  .footer-link {
+    color: #757575 !important;
+    text-decoration: none !important;
+    margin-right: 5px !important;
+    width: 100%;
+    height: 35px;
+    text-align: left !important;
+  }
+
+  .lang-footer-div {
+    /* width: 70% !important; */
+    margin-left: 7px !important;
+    margin-right: 7px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .hero-img {
+    width: 450px;
+  }
+
+  .first-body-div {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 75px !important;
+    max-width: 1536px !important;
+  }
+
+  .page-img {
+    width: 50%;
+  }
+
+  .first-body-child {
+    width: 50%;
+    margin-left: 10px;
+  }
+
+  .hero-img-div {
+    width: 50%;
+  }
+
+  .footer-link-div > div {
+    width: 70% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  }
+
+  .footer-link {
+    color: #757575 !important;
+    text-decoration: none !important;
+    margin-right: 5px !important;
+    width: 100%;
+    height: 50px;
+    text-align: left !important;
+    padding-left: 0 !important;
+  }
+
+  .lang-footer-div {
+    width: 70% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+.top-section {
+  background-color: #fffeee !important;
+}
+
+.nav-header {
+  background-color: #fffeee !important;
+  box-shadow: none !important;
+}
+
 .first-body-title {
   color: black;
+  text-align: left;
+  font-weight: 700 !important;
+}
+
+.first-body-text {
+  text-align: left;
+}
+
+.text-bold {
+  font-weight: 700 !important;
+}
+
+.card-ctn-text {
+  font-size: 14px !important;
+}
+
+.signin-btn {
+  background-color: #fffeee !important;
+  color: black !important;
+}
+
+.signup-btn {
+  background-color: blueviolet !important;
+}
+
+.trial-btn {
+  background-color: blueviolet !important;
+}
+
+.example-btn {
+  text-decoration: underline !important;
+  color: blueviolet !important;
+  font-weight: 500 !important;
+}
+
+.main-adv,
+.rating-sec {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-content {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.main-body-title,
+.card-div {
+  text-align: left;
+}
+
+.card-div {
+  box-shadow: none !important;
+  max-width: none !important;
+}
+
+.our-adv {
+  display: flex !important;
+  flex-direction: row;
+}
+
+.our-adv > div:nth-child(1),
+.our-adv > div:nth-child(2) {
+  margin-right: 30px;
+}
+
+.text-title {
+  color: blueviolet;
+}
+
+.portfolio-body {
+  display: flex !important;
+  flex-direction: row;
+  background-color: blueviolet !important;
+  padding: 20px 20px 0 20px;
+  border-radius: 10px !important;
+}
+
+.portfolio-body > div {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.portfolio-text {
+  background-color: inherit !important;
+  width: 80%;
+  box-shadow: none !important;
+  text-align: left;
+}
+
+.portfolio-text > div {
+  padding: 16px !important;
+}
+
+.center-vertical {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.portfolio-title {
+  color: white;
+}
+
+.strt-trial-btn {
+  background-color: white !important;
+  color: purple !important;
+  font-weight: 700 !important;
+  width: 35%;
+  padding: 10px;
+}
+
+.namecard-div {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-around !important;
+}
+
+.namecard {
+  box-shadow: none !important;
+  border: 1px solid gray;
+}
+
+.card-header-title {
+  color: blueviolet !important;
+}
+
+.card-header-title > div > span {
+  text-align: left !important;
+}
+
+.namecard-text {
+  text-align: left !important;
+}
+
+.namecard-btn {
+  margin: 3px auto 3px auto !important;
+  border: solid 1px gray !important;
+  padding: 5px !important;
+  width: 80% !important;
+  color: blueviolet !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+}
+
+.footer-link-div {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+}
+
+.col-div {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  height: 100%;
+  text-align: left;
+  padding: 10px !important;
+}
+
+.footer-header {
+  font-weight: 500;
+  color: black !important;
+}
+
+.footer-section {
+  background-color: #fffeee !important;
+  padding-top: 30px !important;
 }
