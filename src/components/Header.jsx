@@ -47,7 +47,7 @@ const ResponsiveAppBar = () => {
               onClick={handleOpenNavMenu}
               color="inherit"
             >
-              <MenuIcon />
+              <MenuIcon className="menu-icon" />
             </IconButton>
             <Menu
               id="menu-appbar"

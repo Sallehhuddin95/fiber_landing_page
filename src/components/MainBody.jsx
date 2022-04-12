@@ -23,7 +23,7 @@ const bull = (
 
 export default function MediaCard() {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 MainBodyDiv">
       <div className="main-body-title">
         <h6 className="text-title">Why Fiber?</h6>
         <h3 className="text-bold">

@@ -24,7 +24,7 @@ export default function BasicButtons() {
           With Fiber, you can setup your own personal portfolio in minutes with
           dozens of premade, beautiful templates.
         </p>
-        <Stack spacing={2} direction="row">
+        <Stack spacing={2} direction="row" className="BtnGroup">
           <Button className="trial-btn" variant="contained">
             Start Free Trial
           </Button>
@@ -32,7 +32,7 @@ export default function BasicButtons() {
             View Example
           </Button>
         </Stack>
-        <Stack className="mt-3" spacing={2} direction="row">
+        <Stack className="mt-3 AdvGroup" spacing={2} direction="row">
           <div className="main-adv">
             <ReactSVG src={Checkmark} />
             <p className="mx-2">No Credit Card Required</p>
@@ -43,7 +43,7 @@ export default function BasicButtons() {
           </div>
         </Stack>
       </div>
-      <div className="hero-img-div">
+      <div className="hero-img-div col-sm-12">
         <img
           className="hero-img"
           src={require("../graphics/hero-Illustration.png")}
