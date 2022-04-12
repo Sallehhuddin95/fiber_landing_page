@@ -9,12 +9,12 @@ body {
   }
 
   .hero-img {
-    width: 50px;
+    width: 180px;
   }
 
   .first-body-div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
   }
 
   .footer-link-div > div {
@@ -22,12 +22,14 @@ body {
     font-size: 14px !important;
     margin-left: 7px !important;
     margin-right: 7px !important;
-    display: grid !important;
-    grid-template-columns: 50% 50% !important;
+    /* display: grid !important;
+    grid-template-columns: 50% 50% !important; */
   }
 
   .footer-link-div > div > a {
     padding-left: 0 !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
   }
 
   .footer-link {
@@ -44,11 +46,95 @@ body {
     margin-left: 7px !important;
     margin-right: 7px !important;
   }
+
+  .hero-img-div {
+    /* width: 50%; */
+    height: 200px;
+  }
+
+  .trial-btn {
+    background-color: blueviolet !important;
+    width: 80%;
+  }
+
+  .example-btn {
+    text-decoration: underline !important;
+    color: blueviolet !important;
+    font-weight: 500 !important;
+    width: 80%;
+  }
+
+  .BtnGroup {
+    display: flex;
+    flex-direction: column !important;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .AdvGroup {
+    display: flex;
+    flex-direction: column !important;
+    /* justify-content: center; */
+    align-items: left;
+  }
+
+  .main-adv {
+    margin-left: 0 !important;
+  }
+
+  .our-adv {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .portfolio-body {
+    display: flex !important;
+    flex-direction: column;
+    background-color: blueviolet !important;
+    padding: 20px 20px 0 20px;
+    border-radius: 10px !important;
+  }
+
+  .strt-trial-btn {
+    background-color: white !important;
+    color: purple !important;
+    font-weight: 700 !important;
+    width: 80%;
+    padding: 10px;
+  }
+
+  .namecard-div {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around !important;
+  }
+
+  .namecard {
+    margin-bottom: 20px;
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+  }
+
+  .footer-link-div {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-around !important;
+  }
+
+  .signin-btn {
+    background-color: #fffeee !important;
+    color: black !important;
+    margin-right: 10px;
+  }
 }
 
 @media only screen and (min-width: 600px) {
   .hero-img {
     width: 450px;
+  }
+
+  .MainBodyDiv {
+    max-width: 1536px !important;
   }
 
   .first-body-div {
@@ -69,6 +155,9 @@ body {
 
   .hero-img-div {
     width: 50%;
+    align-items: end;
+    display: flex;
+    flex-direction: column;
   }
 
   .footer-link-div > div {
@@ -93,6 +182,63 @@ body {
     margin-left: auto !important;
     margin-right: auto !important;
   }
+
+  .trial-btn {
+    background-color: blueviolet !important;
+  }
+
+  .example-btn {
+    text-decoration: underline !important;
+    color: blueviolet !important;
+    font-weight: 500 !important;
+  }
+
+  .our-adv {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  .our-adv > div:nth-child(1),
+  .our-adv > div:nth-child(2) {
+    margin-right: 30px;
+  }
+
+  .portfolio-body {
+    display: flex !important;
+    flex-direction: row;
+    background-color: blueviolet !important;
+    padding: 20px 20px 0 20px;
+    border-radius: 10px !important;
+  }
+
+  .strt-trial-btn {
+    background-color: white !important;
+    color: purple !important;
+    font-weight: 700 !important;
+    width: 35%;
+    padding: 10px;
+  }
+
+  .namecard-div {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between !important;
+  }
+
+  .footer-link-div {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+  }
+
+  .signin-btn {
+    background-color: #fffeee !important;
+    color: black !important;
+  }
+}
+
+.menu-icon {
+  color: black !important;
 }
 
 .top-section {
@@ -122,23 +268,8 @@ body {
   font-size: 14px !important;
 }
 
-.signin-btn {
-  background-color: #fffeee !important;
-  color: black !important;
-}
-
 .signup-btn {
   background-color: blueviolet !important;
-}
-
-.trial-btn {
-  background-color: blueviolet !important;
-}
-
-.example-btn {
-  text-decoration: underline !important;
-  color: blueviolet !important;
-  font-weight: 500 !important;
 }
 
 .main-adv,
@@ -162,26 +293,8 @@ body {
   max-width: none !important;
 }
 
-.our-adv {
-  display: flex !important;
-  flex-direction: row;
-}
-
-.our-adv > div:nth-child(1),
-.our-adv > div:nth-child(2) {
-  margin-right: 30px;
-}
-
 .text-title {
   color: blueviolet;
-}
-
-.portfolio-body {
-  display: flex !important;
-  flex-direction: row;
-  background-color: blueviolet !important;
-  padding: 20px 20px 0 20px;
-  border-radius: 10px !important;
 }
 
 .portfolio-body > div {
@@ -214,20 +327,6 @@ body {
   color: white;
 }
 
-.strt-trial-btn {
-  background-color: white !important;
-  color: purple !important;
-  font-weight: 700 !important;
-  width: 35%;
-  padding: 10px;
-}
-
-.namecard-div {
-  display: flex !important;
-  flex-direction: row;
-  justify-content: space-around !important;
-}
-
 .namecard {
   box-shadow: none !important;
   border: 1px solid gray;
@@ -253,12 +352,6 @@ body {
   color: blueviolet !important;
   font-weight: 700 !important;
   margin-bottom: 10px !important;
-}
-
-.footer-link-div {
-  display: flex !important;
-  flex-direction: row !important;
-  justify-content: space-around !important;
 }
 
 .col-div {

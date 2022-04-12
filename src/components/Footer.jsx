@@ -20,7 +20,7 @@ export default function FifthSection() {
   return (
     <div className="footer-div container">
       <div className="footer-link-div">
-        <div className="col-div col-xs-12">
+        <div className="col-div">
           <p className="footer-header text-bold">Fiber</p>
           <p className="">
             With Fiber, you can setup your own personal portfolio in minutes
@@ -28,7 +28,7 @@ export default function FifthSection() {
           </p>
           <p className="">Made with love in the Netherlands.</p>
         </div>
-        <div className="col-div col-xs-12">
+        <div className="col-div">
           <p className="footer-link footer-header text-bold">Sitemap</p>
 
           <a className="footer-link" href="#">
@@ -43,7 +43,7 @@ export default function FifthSection() {
             Media Center
           </a>
         </div>
-        <div className="col-div col-xs-12">
+        <div className="col-div">
           <p className="footer-link footer-header text-bold">Resources</p>
 
           <a className="footer-link" href="#">
@@ -58,7 +58,7 @@ export default function FifthSection() {
             Buy Gift Cards
           </a>
         </div>
-        <div className="col-div col-xs-12">
+        <div className="col-div">
           <p className="footer-link footer-header text-bold">Company</p>
 
           <a className="footer-link" href="#">
@@ -73,7 +73,7 @@ export default function FifthSection() {
             Cookie Preferences
           </a>
         </div>
-        <div className="col-div col-xs-12">
+        <div className="col-div">
           <p className="footer-link footer-header text-bold">Portfolios</p>
 
           <a className="footer-link" href="#">
